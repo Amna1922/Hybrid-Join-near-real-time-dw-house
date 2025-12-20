@@ -18,6 +18,9 @@
 
 ## Project Overview
 
+
+![Screenshot](process.png)
+
 This project implements a near real time data warehouse pipeline for Walmart transactional data. The core is the hybridjoin algorithm which incrementally joins streaming transactions with master data and loads enriched rows into a `FactSales` table for analytics.
 
 Key goals:
